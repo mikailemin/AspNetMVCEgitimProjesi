@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMVCEgitimProjesi.NetFramework", "AspNetMVCEgitimProjesi.NetFramework\AspNetMVCEgitimProjesi.NetFramework.csproj", "{1ED282DC-7888-43FE-9715-6455F7490246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMVCEgitimProjesi.NetCore", "AspNetMVCEgitimProjesi.NetCore\AspNetMVCEgitimProjesi.NetCore.csproj", "{BAFA79BD-6F19-479E-87DC-EF7A14B070CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ED282DC-7888-43FE-9715-6455F7490246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ED282DC-7888-43FE-9715-6455F7490246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ED282DC-7888-43FE-9715-6455F7490246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ED282DC-7888-43FE-9715-6455F7490246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAFA79BD-6F19-479E-87DC-EF7A14B070CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAFA79BD-6F19-479E-87DC-EF7A14B070CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAFA79BD-6F19-479E-87DC-EF7A14B070CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAFA79BD-6F19-479E-87DC-EF7A14B070CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A6A06F3-DAA6-4E99-8023-42FE015BB324}
+	EndGlobalSection
+EndGlobal

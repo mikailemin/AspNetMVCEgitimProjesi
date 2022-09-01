@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "MVC Postback İşlemi";
+
+
+    string postMesajı = "";
+
+    string mesajKutusu = "";
+
+    if (IsPost)  // Eğer sayfa post ile sunucuya gönderilmişse
+    {
+        postMesajı = "Sayfa post ile sunucuya gönderildi";
+        mesajKutusu = "<script>alert('Post işlemi gerçekleşti')</script>";
+
+    }
+}
+
+<h2>MVC Postback İşlemi</h2>
+
+<form method="post">
+
+    <input type="text" name="txtad" value="" />
+    <input type="submit" name="btnGonder" value="Gönder" />
+
+
+</form>
+
+@postMesajı
+@Html.Raw(mesajKutusu)
+
+
+
+<h2>MVC Postback İşlemi</h2>
+
+<form method="get">
+
+    <input type="text" name="kelime" value="" />
+    <input type="submit" name="btnGonder" value="Gönder" />
+
+
+</form>
+
+@ViewBag.Mesaj
+
+

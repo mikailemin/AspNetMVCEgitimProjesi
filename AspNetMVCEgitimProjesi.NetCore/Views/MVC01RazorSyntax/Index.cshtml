@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "MVC01 Razor Syntax .Net Core";
+    string adi = "Ali";
+    string[] isimler = new string[] { "Mert", "Mücahit", "Aslı" };
+    //@{} blokları arasına direk csharp kodları yazabiliyoruz veya @ ile csahrp kodu yazabiliyoruz bu yazım türüne razor syntax ı diyoruz.
+}
+
+<h1>MVC01 Razor Syntax</h1>
+
+@ViewData["TTitle"]
+
+<h3>Adı değişkeni</h3>
+@adi
+<h3>İsimler</h3>
+@foreach (var ad in isimler)
+{
+ <h4>@ad</h4>
+
+}
+
+
+

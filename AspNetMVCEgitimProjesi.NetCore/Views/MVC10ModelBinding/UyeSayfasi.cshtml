@@ -1,0 +1,64 @@
+﻿@model UyeSayfasiViewModel
+@{
+
+    ViewData["Title"] = "Uye Sayfasi";
+    // MVC de 1 sayfada sadece bir tane model classı kullanabiliriz.
+    // bir sayfada bir den fazla class kullanmamız gerekirse view model kullanmamız gerekir.
+}
+
+<h1>Üye SAyfasi</h1>
+
+ <table class="table table-striped">
+        <tr>
+            <td>Ad</td>
+            <td>@Model.Kullanici.Ad</td>
+        </tr>
+          <tr>
+            <td>Soyad</td>
+            <td>@Model.Kullanici.Soyad</td>
+        </tr>
+          <tr>
+            <td>Email</td>
+            <td>@Model.Kullanici.Email</td>
+        </tr>
+         <tr>
+            <td>Kullanici Adı</td>
+            <td>@Model.Kullanici.KullaniciAdi</td>
+        </tr>
+         <tr>
+            <td>Şifre</td>
+            <td>@Model.Kullanici.Sifre</td>
+        </tr>
+      
+    </table>
+
+    <h1>Adres Bilgileri</h1>
+
+      <table class="table table-striped table-hover">
+        <tr>
+            <td>Sehir</td>
+            <td>
+                @Model.Adres.Sehir
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>İlçe</td>
+            <td>
+              @Model.Adres.Ilce
+            </td>
+        </tr>
+
+
+        <tr>
+            <td>Acık Adres</td>
+            <td>
+               @Model.Adres.AcikAdres
+            </td>
+        </tr>
+
+
+
+
+    </table>

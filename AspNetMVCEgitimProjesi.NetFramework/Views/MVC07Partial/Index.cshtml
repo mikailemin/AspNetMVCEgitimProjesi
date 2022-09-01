@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "MVC Partial Kullanımı";
+}
+
+<h2>MVC Partial Kullanımı</h2>
+
+<p>
+    Partial parça anlamına gelir ve kod sayısı fazlalaşan ve karmaşıklaşan uygulamalarda sayfaşlarımızı parçalara ayırarak yönetmemimizi kolaylaştırır.
+</p>
+
+<ul>
+    @Html.Partial("_ParitialLogin")
+    <li>
+        <a href="#">Şifre Yenileme</a>
+    </li>
+</ul>
+

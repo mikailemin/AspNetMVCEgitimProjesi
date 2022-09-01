@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Mvc Section Kullanımı";
+}
+
+<h2>Mvc Section Kullanımı</h2>
+
+<section>
+    Sayfa içerisinde bir bölüm
+</section>
+
+@section Scripts{
+
+    @*<script>alert("Script isimli section çalıştı!")</script>*@
+
+}
+
+@section OzzelIcerik{
+
+    <section class="jumbotron">
+        Sayfa içerisinde bir bölüm
+    </section>
+}
+@section OzelCss{
+
+    <style>
+        body{
+            background-color:red;
+            color:white;
+        }
+    </style>
+}
